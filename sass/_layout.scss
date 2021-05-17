@@ -1,0 +1,180 @@
+/////////////////////////// 
+/////   HEADER
+.header {
+  background-image: url(../img/mask15.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+/*   width: 100vh; */
+  position: relative;
+  
+
+  &__check {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 4.2rem 0;
+   
+    &-logo {
+      position: absolute;
+      left: 10%;
+    }
+
+    &-list {
+      list-style: none;
+      color: #fff;
+      margin-right: -12rem;
+      position: absolute;
+      right: 14%;
+
+      &-item {
+        display: inline-block;
+        height: 2.5rem;
+        width: 4rem;
+        font-size: 1.6rem;
+        color: #ffffff;
+        padding: 0 2.1rem;
+      }
+    }
+  }
+
+  &__decription {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5rem;
+   
+
+    &-title {
+      font-size: 2.8rem;
+      margin-bottom: 2rem;
+    }
+
+    &-text {
+      font-size: 1.7rem;
+      color: #DBDBDB;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.book {
+  font-size: 2rem;
+  font-weight: 300;
+  height: 5.5rem;
+  width: 20rem;
+  background-color: #243D93;
+  color: #FFFFFF;
+  border-radius: 44px;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.login {
+  height: 3rem;
+  width: 4.5rem;
+  background-color: #FF9646;
+  border-radius: 100px;
+
+  &:hover {
+    cursor: pointer;
+  }
+ /*  padding: 1rem .7rem;
+ */
+}
+
+.header__doctor {
+  height: 33rem;
+  width: 37.6rem;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  margin-bottom: 20rem;
+}
+
+/////////////////////////// 
+/////   FOOTER
+.footer {
+  margin: 6rem auto;
+  display: flex;
+  justify-content: space-around;
+  height: 16rem;
+  width: 112rem;
+  border-bottom: .5px solid #c3c4c4;
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 16.6rem;
+    
+    padding-right: 10rem;
+    border-right: .5px solid #c3c4c4;
+
+    &-big {
+      height: 3.4rem;
+      width: 16rem;
+    }
+
+    &-small {
+      height: 2rem;
+      width: 4rem;
+    }
+  }
+
+  &__link {
+
+    div{
+      font-size: 1.8rem;
+      color: #000000;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+      padding: .8rem 0;
+    }
+  }
+
+  &__plan {
+    font-size: 1.6rem;
+    padding-top: 4.6rem;
+  }
+}
+
+  .connect {
+
+    &__text {
+      font-size: 1.8rem;
+      color: #000000;
+      margin-bottom: 2rem;
+    }
+
+    &__icon {
+      display: flex;
+
+      &-item {
+        height: 2.2rem;
+        width: 2.2rem;
+        margin-right: 2.2rem;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      
+    }
+  }
+
+
+ /*  .test {
+    margin-top: 10rem;
+  } */
+
+
+
+
+
+

@@ -1,0 +1,177 @@
+/////////////////////////// 
+/////   FEATURES
+.features{
+  margin-top: 18rem;
+  text-align: center;
+
+  &__title {
+    font-size: 2.6rem;
+    color: #000000;
+  }
+
+  .box {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    
+
+   /*  &:last-child {
+      margin-right: 0 !important;
+    } */
+
+    &__item {
+      background-color: #ffffff;
+      box-shadow: 0px -1px 11px rgba(0, 0, 0, 0.1);
+      
+      flex-basis: 25%;
+      margin: 2rem 0;
+      padding: 1.8rem 1.6rem;
+
+      
+
+      &-icon {
+        height: 6.6rem;
+        width: 6.6rem;
+        margin: 1rem auto;
+      }
+
+      &-text-normal {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+
+/////////////////////////// 
+/////   PLAN
+.plan {
+  position: relative;
+
+  .wave {
+    position: relative;
+
+    &__top {
+      margin-top: 5rem;
+    }
+
+    &__bottom {
+      position: absolute;
+      top: 70%;
+      left: 0;
+    }
+
+    &__calendar {
+      position: absolute;
+      top: 18%;
+      right: 8%;
+    }
+  }
+
+  .step {
+    position: absolute;
+    z-index: 100;
+    left: 10%;
+    top: 18%;
+
+    &__title {
+      font-size: 2.8rem;
+      font-weight: 600;
+
+      .four {
+        color: #243D93;
+        font-size: 2.6rem;
+      }
+    }
+
+    &__all {
+      position: absolute;
+      margin-top: 3rem;
+      left: 8%;
+
+      &::after {
+        content: "";
+        width: 0px;
+        height: 74%;
+        border-left: 1px dashed black;
+        border-spacing: 10px;
+        border-collapse: 10px;
+        position: absolute;
+        top: 6%;
+        left: -5%;
+      }
+    }
+  }
+
+  &__footer {
+    position: absolute;
+    top: 84%;
+    display: flex;
+    align-items: center;
+
+    &-text {  
+      margin-left: 14rem;
+
+      h2 {
+        font-size: 2.3rem;
+        color: #FFFFFF;
+        margin-bottom: 1.6rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+        width: 77.7rem;
+        color: #FFFFFF;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.book1 {
+  font-size: 1.6rem;
+  color: #ffffff;
+  width: 23.4rem;
+  margin-left: 10rem;
+  margin-top: 3rem;
+  background-color: #243D93;
+}
+
+.step__part {
+  width: 52vw;
+  position: relative;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: .6rem;
+
+    &::before {
+      content: "";
+      height: 1.4rem;
+      width: 1.4rem;
+      border-radius: 50%;
+      background-color: #243D93;
+      position: absolute;
+      top: 13%;
+      left: -6%;
+      z-index: 100;
+    }
+  }
+
+  p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #4A4A4A;
+}
+
